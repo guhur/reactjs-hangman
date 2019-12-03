@@ -148,7 +148,7 @@ class Hangman extends Component {
             Hangman. <small>Do (or) Die</small>
           </a>
           <span className="d-xl-none d-lg-none text-primary">
-            Guessed wrong: {this.state.mistake}
+              Guessed wrong: <span data-testid="wrong">{this.state.mistake}</span>
           </span>
           <button
             className="navbar-toggler sr-only"
